@@ -19,6 +19,7 @@ The project follows the **Medallion Architecture** consisting of three layers:
 ---
 
 ## 📁 Repository Structure
+```
 crm-erp-data-warehouse/
 │
 ├── Docs/
@@ -27,16 +28,16 @@ crm-erp-data-warehouse/
 │   └── End-to-End_DWH_Documentation.pdf
 │
 └── scripts/
-├── Bronze_layer/
-│   ├── BronzeLayerDDL.sql
-│   └── BronzeLayer_stored_proc.sql
-├── Silver_layer/
-│   ├── SilverLayerDDL.sql
-│   └── SilverLayer_stored_proc.sql
-└── Gold_Layer/
-├── GoldLayer.sql
-└── DataQuality.sql
-
+    ├── Bronze_layer/
+    │   ├── BronzeLayerDDL.sql
+    │   └── BronzeLayer_stored_proc.sql
+    ├── Silver_layer/
+    │   ├── SilverLayerDDL.sql
+    │   └── SilverLayer_stored_proc.sql
+    └── Gold_Layer/
+        ├── GoldLayer.sql
+        └── DataQuality.sql
+```
 ---
 
 ## ⚙️ Bronze Layer — Raw Ingestion
